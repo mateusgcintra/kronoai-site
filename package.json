@@ -1,0 +1,19 @@
+{
+  "name": "kronosite",
+  "version": "1.0.0",
+  "description": "site krono",
+  "main": "kronosite.jsx",
+  "scripts": {
+    "start": "python servidor.py",
+    "build": "esbuild kronosite.jsx --bundle --outfile=dist/bundle.js --loader:.js=jsx"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "^0.20.2",
+    "lucide-react": "^0.378.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
